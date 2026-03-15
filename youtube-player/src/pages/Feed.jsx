@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchFromAPI } from "../utils/fetchFromAPI";
-import VideoCard from "../components/VideoCard";
-import Loader from "../components/Loader";
+import { fetchFromAPI } from "../utils/fetchFromAPI.jsx";
+import VideoCard from "../components/VideoCard.jsx";
+import Loader from "../components/Loader.jsx";
 
 const Feed = () => {
   const { data, isLoading, isError } = useQuery({
