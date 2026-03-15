@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.21",
+    "axios": "^1.13.6",
+    "react-player": "^3.4.0",
+    "react-router-dom": "^7.13.1"
+  }
+}
